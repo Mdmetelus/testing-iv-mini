@@ -9,3 +9,6 @@ function name(args) => return something;
 - data access: talk to the persistent data store.
 
 set the test environment to run on 'node' instead of a browser
+
+
+window.setTimeout > global.settimeout (so jest needs to know that now you're working in node)
